@@ -1,0 +1,16 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+description: Facebook Graph API module 
+author: Bill Dawson
+license: Appcelerator Commercial License 
+copyright: Copyright (c) 2011 by Appcelerator, Inc. 
+
+# these should not be edited
+name: facebook
+moduleid: ti.facebook
+guid: 07232544-3cb2-4dc1-87c7-35637f6882d4
+platform: android
+minsdk: 1.5.2
