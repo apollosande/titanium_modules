@@ -10,10 +10,8 @@ package ti.facebook;
 import java.io.InputStream;
 
 import org.appcelerator.kroll.KrollDict;
-import org.appcelerator.titanium.kroll.KrollBridge;
 import org.appcelerator.titanium.proxy.TiViewProxy;
 import org.appcelerator.titanium.util.Log;
-import org.appcelerator.titanium.util.TiConfig;
 import org.appcelerator.titanium.util.TiConvert;
 import org.appcelerator.titanium.util.TiUIHelper;
 import org.appcelerator.titanium.view.TiUIView;
@@ -29,7 +27,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 
-public class LoginButton extends TiUIView
+public class LoginButton extends TiUIView implements TiFacebookStateListener
 {
 	private static final String LCAT = "TiLoginButton";
 	private FacebookModule facebook = null;
@@ -109,12 +107,16 @@ public class LoginButton extends TiUIView
 	{
 		boolean loggedIn = facebook.loggedIn();
 		ImageButton btn = (ImageButton) getNativeView();
+		if (btn == null) {
+			return;
+		}
 		String path = "assets/log"
 				+ (!loggedIn ? "in" : "out") + (wide && !loggedIn ? "2" : "")
 				+ (pressed ? "_down" : "") + ".png";
 		InputStream is = getClass().getClassLoader().getResourceAsStream(path);
 		if (is == null) {
 			Log.e(LCAT, "Error loading Facebook image from " + path);
+			btn.setBackgroundColor(Color.GREEN);
 			return;
 		}
 		Bitmap bitmap = TiUIHelper.createBitmap(is);
@@ -125,19 +127,7 @@ public class LoginButton extends TiUIView
 	public void processProperties(KrollDict d) {
 		super.processProperties(d);
 
-		facebook.addListener(new TiFacebookStateListener() 
-		{
-			@Override
-		    public void login()
-		    {
-				updateButtonImage(false);
-		    }
-			@Override
-		    public void logout()
-		    {
-				updateButtonImage(false);
-		    }
-		});
+		facebook.addListener(this);
 
 		if (d.containsKey("style")) {
 			String style = TiConvert.toString(d, "style");
@@ -145,6 +135,28 @@ public class LoginButton extends TiUIView
 				wide = true;
 				updateButtonImage(false);
 			}
+		}
+	}
+
+	// TiFacebookStateListener implementation
+	@Override
+	public void login()
+	{
+		updateButtonImage(false);
+	}
+
+	@Override
+	public void logout()
+	{
+		updateButtonImage(false);
+	}
+
+	@Override
+	public void release()
+	{
+		super.release();
+		if (facebook != null) {
+			facebook.removeListener(this);
 		}
 	}
 }

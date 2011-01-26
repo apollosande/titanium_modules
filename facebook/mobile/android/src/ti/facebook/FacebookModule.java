@@ -190,6 +190,7 @@ public class FacebookModule extends KrollModule
 		if (facebook == null) {
 			facebook = new Facebook(appid);
 		}
+
 		executeAuthorize(invocation.getActivity());
 	}
 	
@@ -322,7 +323,9 @@ public class FacebookModule extends KrollModule
 	
 	protected void addListener(TiFacebookStateListener listener)
 	{
-		stateListeners.add(listener);
+		if (!stateListeners.contains(listener)) {
+			stateListeners.add(listener);
+		}
 	}
 	
 	protected void removeListener(TiFacebookStateListener listener)
