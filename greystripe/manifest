@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+description: Greystripe ad module
+author: Jeff Haynie 
+license: Appcelerator Commercial License 
+copyright: Copyright (c) 2010 by Appcelerator, Inc. 
+
+
+# these should not be edited
+name: greystripe
+moduleid: ti.greystripe
+guid: 03dc7887-2abe-4bb5-bd9a-00910721a1f4
+platform: iphone
+minsdk: 1.4.2

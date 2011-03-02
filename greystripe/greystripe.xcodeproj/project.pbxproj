@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		249BE54711B46E5700AF41CF /* GreystripeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54411B46E5700AF41CF /* GreystripeDelegate.h */; };
+		249BE54811B46E5700AF41CF /* GSAdEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54511B46E5700AF41CF /* GSAdEngine.h */; };
+		249BE54911B46E5700AF41CF /* GSAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE54611B46E5700AF41CF /* GSAdView.h */; };
+		249BE59811B46E6000AF41CF /* libGreystripeSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 249BE59711B46E6000AF41CF /* libGreystripeSDK.a */; };
+		249BE5BC11B4709300AF41CF /* TiGreystripeViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */; };
+		249BE5BD11B4709300AF41CF /* TiGreystripeViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */; };
+		249BE5C011B470A200AF41CF /* TiGreystripeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 249BE5BE11B470A200AF41CF /* TiGreystripeView.h */; };
+		249BE5C111B470A200AF41CF /* TiGreystripeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 249BE5BF11B470A200AF41CF /* TiGreystripeView.m */; };
+		AA747D9F0F9514B9006C5449 /* greystripe_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* greystripe_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DAA0153912540C020087958F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA0153812540C020087958F /* UIKit.framework */; };
+		DAA015A912540DD60087958F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015A812540DD60087958F /* AudioToolbox.framework */; };
+		DAA015AC12540DDB0087958F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015AB12540DDB0087958F /* AVFoundation.framework */; };
+		DAA015AF12540DEB0087958F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015AE12540DEB0087958F /* CoreGraphics.framework */; };
+		DAA015B212540DF30087958F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B112540DF30087958F /* MediaPlayer.framework */; };
+		DAA015B512540DFF0087958F /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B412540DFF0087958F /* OpenAL.framework */; };
+		DAA015B812540E0E0087958F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B712540E0E0087958F /* QuartzCore.framework */; };
+		DAA015BA12540E0E0087958F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA015B912540E0E0087958F /* SystemConfiguration.framework */; };
+		DAA015C8125410720087958F /* TiGreystripeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA015C6125410720087958F /* TiGreystripeModule.h */; };
+		DAA015C9125410720087958F /* TiGreystripeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA015C7125410720087958F /* TiGreystripeModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		249BE54411B46E5700AF41CF /* GreystripeDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreystripeDelegate.h; sourceTree = "<group>"; };
+		249BE54511B46E5700AF41CF /* GSAdEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdEngine.h; sourceTree = "<group>"; };
+		249BE54611B46E5700AF41CF /* GSAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSAdView.h; sourceTree = "<group>"; };
+		249BE59711B46E6000AF41CF /* libGreystripeSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGreystripeSDK.a; sourceTree = "<group>"; };
+		249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGreystripeViewProxy.h; path = Classes/TiGreystripeViewProxy.h; sourceTree = "<group>"; };
+		249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGreystripeViewProxy.m; path = Classes/TiGreystripeViewProxy.m; sourceTree = "<group>"; };
+		249BE5BE11B470A200AF41CF /* TiGreystripeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiGreystripeView.h; sourceTree = "<group>"; };
+		249BE5BF11B470A200AF41CF /* TiGreystripeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiGreystripeView.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* greystripe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greystripe_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libgreystripe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libgreystripe.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA0153812540C020087958F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAA015A812540DD60087958F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DAA015AB12540DDB0087958F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DAA015AE12540DEB0087958F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAA015B112540DF30087958F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DAA015B412540DFF0087958F /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		DAA015B712540E0E0087958F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DAA015B912540E0E0087958F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DAA015C6125410720087958F /* TiGreystripeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGreystripeModule.h; path = Classes/TiGreystripeModule.h; sourceTree = "<group>"; };
+		DAA015C7125410720087958F /* TiGreystripeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGreystripeModule.m; path = Classes/TiGreystripeModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				249BE59811B46E6000AF41CF /* libGreystripeSDK.a in Frameworks */,
+				DAA0153912540C020087958F /* UIKit.framework in Frameworks */,
+				DAA015A912540DD60087958F /* AudioToolbox.framework in Frameworks */,
+				DAA015AC12540DDB0087958F /* AVFoundation.framework in Frameworks */,
+				DAA015AF12540DEB0087958F /* CoreGraphics.framework in Frameworks */,
+				DAA015B212540DF30087958F /* MediaPlayer.framework in Frameworks */,
+				DAA015B512540DFF0087958F /* OpenAL.framework in Frameworks */,
+				DAA015B812540E0E0087958F /* QuartzCore.framework in Frameworks */,
+				DAA015BA12540E0E0087958F /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libgreystripe.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* greystripe */ = {
+			isa = PBXGroup;
+			children = (
+				249BE54311B46E5700AF41CF /* headers */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = greystripe;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				249BE59711B46E6000AF41CF /* libGreystripeSDK.a */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				DAA0153812540C020087958F /* UIKit.framework */,
+				DAA015A812540DD60087958F /* AudioToolbox.framework */,
+				DAA015AB12540DDB0087958F /* AVFoundation.framework */,
+				DAA015AE12540DEB0087958F /* CoreGraphics.framework */,
+				DAA015B112540DF30087958F /* MediaPlayer.framework */,
+				DAA015B412540DFF0087958F /* OpenAL.framework */,
+				DAA015B712540E0E0087958F /* QuartzCore.framework */,
+				DAA015B912540E0E0087958F /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAA015C6125410720087958F /* TiGreystripeModule.h */,
+				DAA015C7125410720087958F /* TiGreystripeModule.m */,
+				249BE5BA11B4709300AF41CF /* TiGreystripeViewProxy.h */,
+				249BE5BB11B4709300AF41CF /* TiGreystripeViewProxy.m */,
+				249BE5BE11B470A200AF41CF /* TiGreystripeView.h */,
+				249BE5BF11B470A200AF41CF /* TiGreystripeView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		249BE54311B46E5700AF41CF /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				249BE54411B46E5700AF41CF /* GreystripeDelegate.h */,
+				249BE54511B46E5700AF41CF /* GSAdEngine.h */,
+				249BE54611B46E5700AF41CF /* GSAdView.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* greystripe_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* greystripe_Prefix.pch in Headers */,
+				249BE54711B46E5700AF41CF /* GreystripeDelegate.h in Headers */,
+				249BE54811B46E5700AF41CF /* GSAdEngine.h in Headers */,
+				249BE54911B46E5700AF41CF /* GSAdView.h in Headers */,
+				249BE5BC11B4709300AF41CF /* TiGreystripeViewProxy.h in Headers */,
+				249BE5C011B470A200AF41CF /* TiGreystripeView.h in Headers */,
+				DAA015C8125410720087958F /* TiGreystripeModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* greystripe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "greystripe" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = greystripe;
+			productName = greystripe;
+			productReference = D2AAC07E0554694100DB518D /* libgreystripe.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "greystripe" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* greystripe */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* greystripe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				249BE5BD11B4709300AF41CF /* TiGreystripeViewProxy.m in Sources */,
+				249BE5C111B470A200AF41CF /* TiGreystripeView.m in Sources */,
+				DAA015C9125410720087958F /* TiGreystripeModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/greystripe.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = greystripe_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = greystripe;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/greystripe.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = greystripe_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = greystripe;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "greystripe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "greystripe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
